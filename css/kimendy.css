@@ -61,7 +61,7 @@ label { font-weight: normal; margin-bottom: 7px; }
 .glyphicon { margin-bottom: 2em; vertical-align: middle; }
 a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f16529; }
 
-#header { text-align: center; padding-top: 4em; padding-bottom: 2em; min-height: auto; z-index: 2; position: relative; }
+#header { text-align: center; padding-top: 4.1em; padding-bottom: 2em; min-height: auto; z-index: 2; position: relative; }
 #header .caption { padding-top: 8%; z-index: 1; position: relative; } #header .caption-sub { padding-top: 5%; padding-bottom: 2em;}
 #header .caption h1, #header .caption-sub h1 { color:#fff; font-size: 88px;}  #header .caption span, #header .caption-sub span { color: #fff; font-family: "Vijaya", Arial, sans-serif; font-size: 48px; line-height: 1em;  }
 
@@ -94,8 +94,9 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
 
 }
 @media only screen and (max-width: 800px) {
-    #header .caption h1, #header .caption-sub h1 { font-size: 1.8em; margin-bottom: 0em; margin-top: 0em;} #header .caption span, #header .caption-sub span { font-size: 30px; }
-    #header { min-height: auto!important; }  #header .caption { padding-top: 11%!important; } .m-button { margin-top: 4em!important; }
+    .sy-slides-wrap {margin-top: 160px;}
+    #header .caption h1, #header .caption-sub h1 { font-size: 3em; margin-bottom: 0em; margin-top: 0em;} #header .caption span, #header .caption-sub span { font-size: 30px; }
+    #header { min-height: auto!important; }  #header .caption {margin-top:100px; padding-top: 11%!important; } .m-button { margin-top: 4em!important; }
     #body { text-align: justify !important; } #body h1 { text-align: center!important; }
     #awwwards{ top: 20%!important; }
 }
@@ -109,7 +110,7 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
 }
 @media only screen and (max-width: 480px) {
     .sy-slides-wrap {margin-top: 150px;}
-    #header .caption h1, #header .caption-sub h1 { font-size: 1.8em; margin-bottom: 0.5em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 20px; }
+    #header .caption h1, #header .caption-sub h1 { font-size: 1.7em; margin-bottom: 0.5em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 19px; }
     .ghost-button  { font-size: 15px!important; margin-bottom: 1em; } .m-button { margin-top: 2em!important; }
     #mice { padding-top: 2em!important;}
     #header { background: url(../img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover!important; min-height: auto!important;  }
@@ -117,7 +118,7 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
 }
 @media only screen and (max-width: 320px) {
     .sy-slides-wrap {margin-top: 150px;}
-    #header .caption h1, #header .caption-sub h1 { font-size: 1.5em; margin-bottom: 0.2em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 18px; }
+    #header .caption h1, #header .caption-sub h1 { font-size: 1.5em; margin-bottom: 0.2em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 17px; }
 }
 
 .bgblue { background-color: #0daad0; }
