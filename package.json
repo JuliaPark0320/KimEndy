@@ -1,0 +1,23 @@
+{
+  "name": "kimendy",
+  "version": "1.0.0",
+  "description": "for kimendyCompany page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaPark0320/KimEndy.git"
+  },
+  "author": "julia.park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaPark0320/KimEndy/issues"
+  },
+  "homepage": "https://github.com/JuliaPark0320/KimEndy#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "slippry": "^1.2.9"
+  }
+}

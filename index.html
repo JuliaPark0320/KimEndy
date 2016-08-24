@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>김엔티컴퍼니</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="캐나다 생연어 직수업">
+    <link rel="stylesheet" href="./node_modules/slippry/dist/slippry.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/kimendy.css">
+    <style type="text/css">
+        .bgimage-list{
+            position: relative;
+            background-color: rgba(10, 10, 10, 0.24) !important;
+            z-index: 100000;
+        }
+        #header{
+            width: 100%;
+            height: 100%;
+            position: absolute !important;
+            z-index: 200000;
+        }
+        #footer {
+            position:fixed;
+            left:0px;
+            bottom:0px;
+            height:140px;
+            width:100%;
+            z-index: 300000;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="bgimage-list">
+        <ul id="pictures-demo">
+            <li title="">
+                <img src="./img/abstract-1238248_960_720.jpg" alt="demo1_3">
+            </li>
+            <li title="">
+                <img src="http://gangjungsa.com/bizdemo2906/component/board/board_11/u_image/1361946025_72.jpg"  alt="demo1_2">
+            </li>
+            <li title="">
+                <img src="http://www.koreana.ca/data/file/photo_news/842927583_jx8ByrN1_fish.jpg" alt="demo1_1">
+            </li>
+            <li title="">
+                <img src="http://211.253.250.2/attach_upload/impfishinfo/%EB%83%89%EC%9E%A5%EC%97%B0%EC%96%B4_%EC%A0%84%EB%A9%B4_%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD%EC%A7%80%EC%9B%90_01.jpg"  alt="demo1_2">
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="descript container-fluid prx-b" id="header" style="bottom: 0px;">
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="#cd-nav" class="cd-nav-trigger">Menu
+                <span class="cd-nav-icon"></span>
+                <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                </svg>
+            </a>
+
+            <div id="cd-nav" class="cd-nav index bgcover">
+                <div class="cd-navigation-wrapper bg-xs">
+                    <div class="cd-half-block">
+
+                        <h2><img alt="separator" src="img/sep.gif"><br>Menu</h2>
+
+                        <nav>
+                            <ul class="cd-primary-nav">
+                                <li><a href="index.html" class="selected">Home</a></li>
+                                <li><a href="works.html">Works</a><span><a href="web.html">Web</a> &nbsp;/&nbsp; <a href="graphics.html">Graphics</a> &nbsp;/&nbsp; <a href="photo.html">Photo</a></span></li>
+                                <li><a href="about.php">About</a></li>
+                            </ul>
+                        </nav>
+                    </div><!-- .cd-half-block -->
+
+                    <div class="cd-half-block">
+                        <address>
+                            <ul class="cd-contact-info">
+                                <li><a href="mailto:info@jdcdesignstudio.com">info@jdcdesignstudio.com</a></li>
+                                <li>+61456915337</li>
+                                <li>
+                                    <span>NSW, Australia</span>
+                                </li>
+                            </ul>
+                        </address>
+                    </div> <!-- .cd-half-block -->
+                </div> <!-- .cd-navigation-wrapper -->
+            </div> <!-- .cd-nav -->
+
+
+        </div>
+        <div class="col-sm-4 z1">
+            <a href="index.html"><img alt="logo JDC Design Studio" src="img/logo.svg"><p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="caption">
+                <h1 class="element">Atlantic Salmon From Canada</h1>
+                <span>This speedy fish supper is the perfect low-calorie,<br> low-hassle weeknight meal.</span>
+
+                <p class="m-button"><a href="docs/JDC-Resume.pdf" class="ghost-button" target="_blank">Product Info</a> &nbsp; <a href="docs/JDC-Portfolio.pdf" class="ghost-button" target="_blank">Contact</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div>경기도 성남시 분당구 황새울로 335번길 8, 4F <br>
+        Tel +82-31-709-4690 Mobile +82-10-9280-4690 <br>
+        Mail kimendy@kimendy.com </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./node_modules/slippry/src/slippry.js"></script>
+<script>
+    $('#pictures-demo').slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+
+        // options
+        adaptiveHeight: false, // height of the sliders adapts to current slide
+        captions: false, // Position: overlay, below, custom, false
+
+        // pager
+        pager: false,
+
+        // controls
+        controls: false,
+        autoHover: false,
+
+        // transitions
+        transition: 'kenburns', // fade, horizontal, kenburns, false
+        kenZoom: 140,
+        speed: 2000 // time the transition takes (ms)
+    });
+
+</script>
+</body>
+</html>
