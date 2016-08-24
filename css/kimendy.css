@@ -100,19 +100,23 @@ a .glyphicon { color: #4c4c4c;font-size: 1.1em; } a:hover .glyphicon { color: #f
     #awwwards{ top: 20%!important; }
 }
 @media only screen and (max-width: 640px) {
+    .sy-slides-wrap {margin-top: 150px;}
     #header .caption h1, #header .caption-sub h1 { font-size: 3em; margin-bottom: 0.2em; margin-top: 0em; }#header .caption span, #header .caption-sub span { font-size: 22px; }
     .hde-social { display: none; }
     #awwwards { display: none; }
+    .ghost-button  { font-size: 15px!important;}
 
 }
 @media only screen and (max-width: 480px) {
+    .sy-slides-wrap {margin-top: 150px;}
     #header .caption h1, #header .caption-sub h1 { font-size: 1.8em; margin-bottom: 0.5em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 20px; }
-    .ghost-button  { margin-bottom: 1em; } .m-button { margin-top: 2em!important; }
+    .ghost-button  { font-size: 15px!important; margin-bottom: 1em; } .m-button { margin-top: 2em!important; }
     #mice { padding-top: 2em!important;}
     #header { background: url(../img/slide1.jpg) top center no-repeat!important; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover!important; min-height: auto!important;  }
 
 }
 @media only screen and (max-width: 320px) {
+    .sy-slides-wrap {margin-top: 150px;}
     #header .caption h1, #header .caption-sub h1 { font-size: 1.5em; margin-bottom: 0.2em; margin-top: 0em; } #header .caption span, #header .caption-sub span { font-size: 18px; }
 }
 
